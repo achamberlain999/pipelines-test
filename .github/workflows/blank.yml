@@ -44,7 +44,7 @@ jobs:
       run: |
           echo "Manually approved"
   next_step:
-    needs: build
+    needs: ManualApprove
     runs-on: ubuntu-latest
     steps:
     - name: manual approve
