@@ -45,3 +45,4 @@ jobs:
     - name: manual approve
       run: |
           echo "Manually approved"
+          exit 1
