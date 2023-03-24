@@ -38,6 +38,7 @@ jobs:
   Release:
     name: Release
     needs: build
+    if: false
     environment:
       name: prod
     runs-on: ubuntu-latest
